@@ -1,3 +1,10 @@
+local originalName = "HIGH ENCRYPTION 💢.lua"  
+local currentName = gg.getFile():match("([^/]+)$")  
+
+if currentName ~= originalName then
+    gg.alert("Fuck You :\n" .. originalName)
+    os.exit()  
+end
 local game = gg.getTargetInfo()
 or 
 {x64 = gg.alert('Is game?', 'x64', '', 'x32') == 1}
