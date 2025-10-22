@@ -1,10 +1,3 @@
-local originalName = "RexluaV50.lua"  
-local currentName = gg.getFile():match("([^/]+)$")  
-
-if currentName ~= originalName then
-    gg.alert("Fuck You :\nDont be Oversmart")
-    os.exit()  
-end
 local game = gg.getTargetInfo()
 or 
 {x64 = gg.alert('Is game?', 'x64', '', 'x32') == 1}
