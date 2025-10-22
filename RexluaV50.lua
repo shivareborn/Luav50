@@ -1,4 +1,4 @@
-local originalName = "💢  𝐑𝖊𝖝 𝕷𝖚𝖆 𝐕𝟓𝟎 𝕾𝖈𝖗𝖎𝖕𝖙 💢 .lua"  
+local originalName = "RexluaV50.lua"  
 local currentName = gg.getFile():match("([^/]+)$")  
 
 if currentName ~= originalName then
