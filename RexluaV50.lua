@@ -1,8 +1,8 @@
-local originalName = "HIGH ENCRYPTION 💢.lua"  
+local originalName = "💢  𝐑𝖊𝖝 𝕷𝖚𝖆 𝐕𝟓𝟎 𝕾𝖈𝖗𝖎𝖕𝖙 💢 .lua"  
 local currentName = gg.getFile():match("([^/]+)$")  
 
 if currentName ~= originalName then
-    gg.alert("Fuck You :\n" .. originalName)
+    gg.alert("Fuck You :\nDont be Oversmart")
     os.exit()  
 end
 local game = gg.getTargetInfo()
